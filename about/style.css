@@ -3,3 +3,14 @@ body {
  background-size: cover;
  background-repeat: no-repeat;
 }
+
+h1,h2,h3,h4,h5{
+  color:#e2dbdb;
+
+}
+
+p{
+  text-align: left;
+  color:#e2dbdb;
+
+}
