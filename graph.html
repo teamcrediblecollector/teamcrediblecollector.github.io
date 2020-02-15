@@ -51,7 +51,7 @@
       for( i = 0; i < 50; i++ ) {
         s.graph.addNode( {
           id: papers[i].title,
-          label: papers[i].title.slice(2, papers.title.length - 2),
+          label: papers[i].title.slice(2, papers[i].title.length - 2),
           x: Math.random() * 1000000000,
           y: Math.random() * 1000000000,
           size: Math.log10(papers[i].count),
